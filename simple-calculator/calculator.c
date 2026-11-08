@@ -1,8 +1,5 @@
 #include <stdio.h>
 
-/**
- * print_menu - Prints the calculator menu
- */
 void print_menu(void)
 {
 	printf("Simple Calculator\n");
@@ -13,15 +10,11 @@ void print_menu(void)
 	printf("0) Quit\n");
 }
 
-/**
- * main - Entry point of the simple calculator
- *
- * Return: Always 0
- */
+
 int main(void)
 {
 	int choice;
-	int a, b;
+	double a, b;
 
 	while (1)
 	{
@@ -36,25 +29,25 @@ int main(void)
 			printf("Bye!\n");
 			break;
 		}
-		else if (choice >= 1 && choice <= 3)
+		else if (choice >= 1 && choice <= 4)
 		{
 			printf("A: ");
-			if (scanf("%d", &a) != 1)
+			if (scanf("%lf", &a) != 1)
 				return (1);
 			printf("B: ");
-			if (scanf("%d", &b) != 1)
+			if (scanf("%lf", &b) != 1)
 				return (1);
 
 			if (choice == 1)
-				printf("Result: %d\n", a + b);
+				printf("Result: %.15g\n", a + b);
 			else if (choice == 2)
-				printf("Result: %d\n", a - b);
+				printf("Result: %.15g\n", a - b);
+			else if (choice == 3)
+				printf("Result: %.15g\n", a * b);
+			else if (b == 0)
+				printf("Error: division by zero\n");
 			else
-				printf("Result: %d\n", a * b);
-		}
-		else if (choice == 4)
-		{
-			/* division will be added in the next task */
+				printf("Result: %.15g\n", a / b);
 		}
 		else
 		{

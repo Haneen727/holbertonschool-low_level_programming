@@ -20,3 +20,8 @@ Simple Calculator
 0) Quit
 Choice: 0
 Bye!
+
+## Number Handling
+
+The calculator uses decimal numbers (double) for all operations, so 10 / 4 gives 2.5.
+Dividing by zero prints "Error: division by zero".
