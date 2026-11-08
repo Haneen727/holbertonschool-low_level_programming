@@ -36,7 +36,7 @@ int main(void)
 			printf("Bye!\n");
 			break;
 		}
-		else if (choice == 1 || choice == 2)
+		else if (choice >= 1 && choice <= 3)
 		{
 			printf("A: ");
 			if (scanf("%d", &a) != 1)
@@ -47,12 +47,14 @@ int main(void)
 
 			if (choice == 1)
 				printf("Result: %d\n", a + b);
-			else
+			else if (choice == 2)
 				printf("Result: %d\n", a - b);
+			else
+				printf("Result: %d\n", a * b);
 		}
-		else if (choice == 3 || choice == 4)
+		else if (choice == 4)
 		{
-			/* operations will be added in the next tasks */
+			/* division will be added in the next task */
 		}
 		else
 		{
