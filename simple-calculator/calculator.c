@@ -1,6 +1,8 @@
 #include <stdio.h>
 
-
+/**
+ * print_menu - Prints the calculator menu
+ */
 void print_menu(void)
 {
 	printf("Simple Calculator\n");
@@ -11,6 +13,11 @@ void print_menu(void)
 	printf("0) Quit\n");
 }
 
+/**
+ * main - Entry point of the simple calculator
+ *
+ * Return: Always 0
+ */
 int main(void)
 {
 	int choice;
@@ -29,7 +36,7 @@ int main(void)
 			printf("Bye!\n");
 			break;
 		}
-		else if (choice == 1)
+		else if (choice == 1 || choice == 2)
 		{
 			printf("A: ");
 			if (scanf("%d", &a) != 1)
@@ -37,11 +44,15 @@ int main(void)
 			printf("B: ");
 			if (scanf("%d", &b) != 1)
 				return (1);
-			printf("Result: %d\n", a + b);
+
+			if (choice == 1)
+				printf("Result: %d\n", a + b);
+			else
+				printf("Result: %d\n", a - b);
 		}
-		else if (choice >= 2 && choice <= 4)
+		else if (choice == 3 || choice == 4)
 		{
-            
+			/* operations will be added in the next tasks */
 		}
 		else
 		{
