@@ -14,6 +14,11 @@ This directory contains exercises about pointers, arrays and strings in C.
 - Writes a function that swaps the values of two integers.
 - **Prototype:** `void swap_int(int *a, int *b);`
 
+### 2. This report, by its very length, defends itself against the risk of being read
+- **File:** `2-strlen.c`
+- Writes a function that returns the length of a string.
+- **Prototype:** `int _strlen(char *s);`
+
 ## Compilation
 
 All files are compiled on Ubuntu 20.04 LTS using `gcc` with the flags:
