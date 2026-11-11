@@ -54,6 +54,11 @@ This directory contains exercises about pointers, arrays and strings in C.
 - Writes a function that copies the string pointed to by src, including the terminating null byte, to the buffer pointed to by dest.
 - **Prototype:** `char *_strcpy(char *dest, char *src);`
 
+### 100. Great leaders are willing to sacrifice the numbers to save the people. Poor leaders sacrifice the people to save the numbers
+- **File:** `100-atoi.c`
+- Writes a function that converts a string to an integer.
+- **Prototype:** `int _atoi(char *s);`
+
 ## Compilation
 
 All files are compiled on Ubuntu 20.04 LTS using `gcc` with the flags:
