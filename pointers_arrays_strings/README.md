@@ -24,6 +24,11 @@ This directory contains exercises about pointers, arrays and strings in C.
 - Writes a function that prints a string, followed by a new line, to stdout.
 - **Prototype:** `void _puts(char *str);`
 
+### 4. I can only go one way. I've not got a reverse gear
+- **File:** `4-print_rev.c`
+- Writes a function that prints a string, in reverse, followed by a new line.
+- **Prototype:** `void print_rev(char *s);`
+
 ## Compilation
 
 All files are compiled on Ubuntu 20.04 LTS using `gcc` with the flags:
