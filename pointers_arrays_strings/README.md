@@ -29,6 +29,11 @@ This directory contains exercises about pointers, arrays and strings in C.
 - Writes a function that prints a string, in reverse, followed by a new line.
 - **Prototype:** `void print_rev(char *s);`
 
+### 5. A good engineer thinks in reverse and asks himself about the stylistic consequences of the components and systems he proposes
+- **File:** `5-rev_string.c`
+- Writes a function that reverses a string.
+- **Prototype:** `void rev_string(char *s);`
+
 ## Compilation
 
 All files are compiled on Ubuntu 20.04 LTS using `gcc` with the flags:
