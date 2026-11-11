@@ -19,6 +19,11 @@ This directory contains exercises about pointers, arrays and strings in C.
 - Writes a function that returns the length of a string.
 - **Prototype:** `int _strlen(char *s);`
 
+### 3. I do not fear computers. I fear the lack of them
+- **File:** `3-puts.c`
+- Writes a function that prints a string, followed by a new line, to stdout.
+- **Prototype:** `void _puts(char *str);`
+
 ## Compilation
 
 All files are compiled on Ubuntu 20.04 LTS using `gcc` with the flags:
