@@ -39,6 +39,11 @@ This directory contains exercises about pointers, arrays and strings in C.
 - Writes a function that prints every other character of a string, starting with the first character, followed by a new line.
 - **Prototype:** `void puts2(char *str);`
 
+### 7. Winning is only half of it. Having fun is the other half
+- **File:** `7-puts_half.c`
+- Writes a function that prints half of a string, followed by a new line.
+- **Prototype:** `void puts_half(char *str);`
+
 ## Compilation
 
 All files are compiled on Ubuntu 20.04 LTS using `gcc` with the flags:
