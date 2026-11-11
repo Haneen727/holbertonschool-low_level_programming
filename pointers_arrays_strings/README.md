@@ -34,6 +34,11 @@ This directory contains exercises about pointers, arrays and strings in C.
 - Writes a function that reverses a string.
 - **Prototype:** `void rev_string(char *s);`
 
+### 6. Half the lies they tell about me aren't true
+- **File:** `6-puts2.c`
+- Writes a function that prints every other character of a string, starting with the first character, followed by a new line.
+- **Prototype:** `void puts2(char *str);`
+
 ## Compilation
 
 All files are compiled on Ubuntu 20.04 LTS using `gcc` with the flags:
