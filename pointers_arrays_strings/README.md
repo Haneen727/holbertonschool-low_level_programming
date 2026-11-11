@@ -49,6 +49,11 @@ This directory contains exercises about pointers, arrays and strings in C.
 - Writes a function that prints n elements of an array of integers, followed by a new line.
 - **Prototype:** `void print_array(int *a, int n);`
 
+### 9. strcpy
+- **File:** `9-strcpy.c`
+- Writes a function that copies the string pointed to by src, including the terminating null byte, to the buffer pointed to by dest.
+- **Prototype:** `char *_strcpy(char *dest, char *src);`
+
 ## Compilation
 
 All files are compiled on Ubuntu 20.04 LTS using `gcc` with the flags:
