@@ -44,6 +44,11 @@ This directory contains exercises about pointers, arrays and strings in C.
 - Writes a function that prints half of a string, followed by a new line.
 - **Prototype:** `void puts_half(char *str);`
 
+### 8. Arrays are not pointers
+- **File:** `8-print_array.c`
+- Writes a function that prints n elements of an array of integers, followed by a new line.
+- **Prototype:** `void print_array(int *a, int n);`
+
 ## Compilation
 
 All files are compiled on Ubuntu 20.04 LTS using `gcc` with the flags:
