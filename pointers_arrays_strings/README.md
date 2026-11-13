@@ -13,4 +13,5 @@ C programs about pointers, arrays and strings.
 - `6-cap_string.c`: function `cap_string` that capitalizes all words of a string
 - `7-leet.c`: function `leet` that encodes a string into 1337
 - `0-memset.c`: function `_memset` that fills memory with a constant byte
+- `1-memcpy.c`: function `_memcpy` that copies memory area
 - `main.h`: header file with the prototypes
