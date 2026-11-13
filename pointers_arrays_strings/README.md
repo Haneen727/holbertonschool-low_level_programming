@@ -19,4 +19,5 @@ C programs about pointers, arrays and strings.
 - `4-strpbrk.c`: function `_strpbrk` that searches a string for any of a set of bytes
 - `5-strstr.c`: function `_strstr` that locates a substring
 - `7-print_chessboard.c`: function `print_chessboard` that prints the chessboard
+- `8-print_diagsums.c`: function `print_diagsums` that prints the sum of the two diagonals of a square matrix
 - `main.h`: header file with the prototypes
