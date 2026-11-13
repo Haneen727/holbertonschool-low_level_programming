@@ -18,4 +18,5 @@ C programs about pointers, arrays and strings.
 - `3-strspn.c`: function `_strspn` that gets the length of a prefix substring
 - `4-strpbrk.c`: function `_strpbrk` that searches a string for any of a set of bytes
 - `5-strstr.c`: function `_strstr` that locates a substring
+- `7-print_chessboard.c`: function `print_chessboard` that prints the chessboard
 - `main.h`: header file with the prototypes
