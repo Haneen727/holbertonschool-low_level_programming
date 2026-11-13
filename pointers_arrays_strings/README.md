@@ -15,4 +15,5 @@ C programs about pointers, arrays and strings.
 - `0-memset.c`: function `_memset` that fills memory with a constant byte
 - `1-memcpy.c`: function `_memcpy` that copies memory area
 - `2-strchr.c`: function `_strchr` that locates a character in a string
+- `3-strspn.c`: function `_strspn` that gets the length of a prefix substring
 - `main.h`: header file with the prototypes
