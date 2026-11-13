@@ -11,4 +11,5 @@ C programs about pointers, arrays and strings.
 - `4-rev_array.c`: function `reverse_array` that reverses the content of an array of integers
 - `5-string_toupper.c`: function `string_toupper` that changes all lowercase letters of a string to uppercase
 - `6-cap_string.c`: function `cap_string` that capitalizes all words of a string
+- `7-leet.c`: function `leet` that encodes a string into 1337
 - `main.h`: header file with the prototypes
